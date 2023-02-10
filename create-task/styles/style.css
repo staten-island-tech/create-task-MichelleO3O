@@ -32,12 +32,38 @@ h1 {
   height: 5%;
 }
 
+#cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 img {
-  /* height: 250px; */
-  width: 200px;
+  height: 250px;
+  /* width: 200px; */
+  border-radius: 5px;
 }
 
 .names {
   font-size: 40px;
   margin: 5px;
+}
+
+.btns {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 7px;
+}
+
+.age {
+  font-weight: bold;
+}
+
+.nationality {
+  font-weight: bold;
+}
+
+button {
+  font-weight: bold;
 }

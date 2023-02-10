@@ -70,8 +70,7 @@ const members = [
   {
     member: "Vernon",
     age: 25,
-    image:
-      "https://kprofiles.com/wp-content/uploads/2016/04/Vernon-2-731x1024.jpg",
+    image: "https://pbs.twimg.com/media/FdFXKBDacAEDeNW.jpg",
     nationality: "American",
   },
   {
