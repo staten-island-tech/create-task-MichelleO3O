@@ -3,82 +3,82 @@ const members = [
     member: "S.Coups",
     age: 28,
     image:
-      "https://static.wikia.nocookie.net/girlgroup/images/a/a6/S.Coups_Dream_Official_Photo.jpg/revision/latest?cb=20220920122310",
+      "https://kprofiles.com/wp-content/uploads/2016/04/S.Coups_-731x1024.webp",
     nationality: "Korean",
   },
   {
     member: "Jeonghan",
     age: 28,
-    image: "https://pbs.twimg.com/media/FdKgqaOaEAIj3rO.jpg",
+    image:
+      "https://kprofiles.com/wp-content/uploads/2016/04/Jeonghan-731x1024.webp",
     nationality: "Korean",
   },
   {
     member: "Joshua",
     age: 28,
-    image: "https://pbs.twimg.com/media/FdKgtrGaAAELFnL.jpg",
+    image: "https://kprofiles.com/wp-content/uploads/2016/04/Joshua.webp",
     nationality: "American",
   },
   {
     member: "JunHui",
     age: 27,
-    image: "https://pbs.twimg.com/media/FdPqQkFaAAEpBlA.jpg",
+    image: "https://kprofiles.com/wp-content/uploads/2016/04/Jun.webp",
     nationality: "Chinese",
   },
   {
     member: "Hoshi",
     age: 27,
-    image:
-      "https://pbs.twimg.com/media/FdPjRFXacAcJBsR?format=jpg&name=4096x4096",
+    image: "https://kprofiles.com/wp-content/uploads/2016/04/Hoshi.webp",
     nationality: "Korean",
   },
   {
     member: "Wonwoo",
     age: 27,
-    image: "https://pbs.twimg.com/media/FdFXEsDaUAQfTAa.jpg",
+    image: "https://kprofiles.com/wp-content/uploads/2016/04/Wonwoo.webp",
     nationality: "Korean",
   },
   {
     member: "Woozi",
     age: 27,
-    image:
-      "https://pbs.twimg.com/media/FdJlVQWakAAmo4n?format=jpg&name=4096x4096",
-    nationality: "Korean",
-  },
-  {
-    member: "The8",
-    age: 26,
-    image: "https://pbs.twimg.com/media/FdPqTqXakAAdeI1.jpg",
-    nationality: "Chinese",
-  },
-  {
-    member: "Mingyu",
-    age: 26,
-    image: "https://pbs.twimg.com/media/FdFXHtwaEAEllNJ.jpg",
+    image: "https://kprofiles.com/wp-content/uploads/2016/04/Woozi.webp",
     nationality: "Korean",
   },
   {
     member: "DK",
     age: 26,
-    image: "https://pbs.twimg.com/media/FdKgxAqagAAzsRS.jpg",
+    image: "https://kprofiles.com/wp-content/uploads/2016/04/DK.webp",
     nationality: "Korean",
+  },
+  {
+    member: "Mingyu",
+    age: 26,
+    image: "https://kprofiles.com/wp-content/uploads/2016/04/Mingyu.webp",
+    nationality: "Korean",
+  },
+  {
+    member: "The8",
+    age: 26,
+    image: "https://kprofiles.com/wp-content/uploads/2016/04/The8.webp",
+    nationality: "Chinese",
   },
   {
     member: "Seungkwan",
     age: 25,
-    image:
-      "https://pbs.twimg.com/media/FdKhcqyaAAAOcQ9?format=jpg&name=4096x4096",
+    image: "https://kprofiles.com/wp-content/uploads/2016/04/Seungkwan.webp",
     nationality: "Korean",
   },
   {
     member: "Vernon",
     age: 25,
-    image: "https://pbs.twimg.com/media/FdFXKBDacAEDeNW.jpg",
+    image:
+      "https://kprofiles.com/wp-content/uploads/2016/04/Vernon-2-731x1024.jpg",
     nationality: "American",
   },
   {
     member: "Dino",
     age: 24,
-    image: "https://pbs.twimg.com/media/FdPqV0yacAAl6Yp.jpg",
+    image:
+      "https://kprofiles.com/wp-content/uploads/2016/04/Dino-731x1024.webp",
     nationality: "Korean",
   },
 ];
