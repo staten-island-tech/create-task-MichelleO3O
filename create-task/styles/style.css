@@ -15,11 +15,13 @@ button {
   border-radius: 10px;
   font-size: 15px;
   cursor: pointer;
+  margin-top: 20px;
 }
 
 h1 {
   background-color: #c1121f;
   padding: 2%;
+  margin: -10px;
   text-align: center;
   font-size: 50px;
 }
