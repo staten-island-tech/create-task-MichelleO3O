@@ -8,18 +8,20 @@
   font-family: "Rubik Mono One", sans-serif;
 } */
 body {
-  background-color: ;
+  background-color: #242423;
 }
 
 button {
   border-radius: 10px;
   font-size: 15px;
+  cursor: pointer;
 }
 
 h1 {
   background-color: #c1121f;
   padding: 2%;
   text-align: center;
+  font-size: 50px;
 }
 
 #member-cards {
