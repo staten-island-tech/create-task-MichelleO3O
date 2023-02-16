@@ -102,3 +102,8 @@ document.querySelector("#all-btn").addEventListener("click", function () {
     );
   });
 });
+
+// while ("#cards" > 1) {
+//   if (#all.btn).addEventListener("click")
+//   then
+// }
