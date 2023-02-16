@@ -24,12 +24,18 @@ data.forEach((element) => {
 document.querySelector("#kor-btn").addEventListener("click", function () {
   const allCards = document.getElementById("cards");
   allCards.innerHTML = "";
-  data
-    .filter((e) => e.nationality === "Korean")
-    .forEach((element) => {
-      DOMSelectors.card.insertAdjacentHTML(
-        "beforeend",
-        `
+  let koreans = [];
+  let i = 0;
+  while (i < data.length) {
+    if (data[i].nationality === "Korean") {
+      koreans.push(data[i]);
+    }
+    i++;
+  }
+  koreans.forEach((element) => {
+    DOMSelectors.card.insertAdjacentHTML(
+      "beforeend",
+      `
     <div id="member-cards">
     <h2 class="names"> ${element.member}</h2>
     <img src="${element.image}">
@@ -38,19 +44,25 @@ document.querySelector("#kor-btn").addEventListener("click", function () {
     <button id="info-btn">More Info</button>
     </div>
   `
-      );
-    });
+    );
+  });
 });
 
 document.querySelector("#cn-btn").addEventListener("click", function () {
   const allCards = document.getElementById("cards");
   allCards.innerHTML = "";
-  data
-    .filter((e) => e.nationality === "Chinese")
-    .forEach((element) => {
-      DOMSelectors.card.insertAdjacentHTML(
-        "beforeend",
-        `
+  let china = [];
+  let i = 0;
+  while (i < data.length) {
+    if (data[i].nationality === "Chinese") {
+      china.push(data[i]);
+    }
+    i++;
+  }
+  china.forEach((element) => {
+    DOMSelectors.card.insertAdjacentHTML(
+      "beforeend",
+      `
     <div id="member-cards">
     <h2 class="names"> ${element.member}</h2>
     <img src="${element.image}">
@@ -59,19 +71,25 @@ document.querySelector("#cn-btn").addEventListener("click", function () {
     <button id="info-btn">More Info</button>
     </div>
   `
-      );
-    });
+    );
+  });
 });
 
 document.querySelector("#us-btn").addEventListener("click", function () {
   const allCards = document.getElementById("cards");
   allCards.innerHTML = "";
-  data
-    .filter((e) => e.nationality === "American")
-    .forEach((element) => {
-      DOMSelectors.card.insertAdjacentHTML(
-        "beforeend",
-        `
+  let americans = [];
+  let i = 0;
+  while (i < data.length) {
+    if (data[i].nationality === "American") {
+      americans.push(data[i]);
+    }
+    i++;
+  }
+  americans.forEach((element) => {
+    DOMSelectors.card.insertAdjacentHTML(
+      "beforeend",
+      `
     <div id="member-cards">
     <h2 class="names"> ${element.member}</h2>
     <img src="${element.image}">
@@ -80,8 +98,8 @@ document.querySelector("#us-btn").addEventListener("click", function () {
     <button id="info-btn">More Info</button>
     </div>
   `
-      );
-    });
+    );
+  });
 });
 
 document.querySelector("#all-btn").addEventListener("click", function () {
@@ -102,8 +120,3 @@ document.querySelector("#all-btn").addEventListener("click", function () {
     );
   });
 });
-
-// while ("#cards" > 1) {
-//   if (#all.btn).addEventListener("click")
-//   then
-// }
