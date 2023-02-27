@@ -15,7 +15,6 @@ data.forEach((element) => {
     <img src="${element.image}">
     <p class="age">${element.age}</p>
     <p class="nationality">${element.nationality}</p>
-    <button id="info-btn">More Info</button>
     </div>
   `
   );
@@ -41,7 +40,6 @@ document.querySelector("#kor-btn").addEventListener("click", function () {
     <img src="${element.image}">
     <p class="age">${element.age}</p>
     <p class="nationality">${element.nationality}</p>
-    <button id="info-btn">More Info</button>
     </div>
   `
     );
@@ -68,7 +66,6 @@ document.querySelector("#cn-btn").addEventListener("click", function () {
     <img src="${element.image}">
     <p class="age">${element.age}</p>
     <p class="nationality">${element.nationality}</p>
-    <button id="info-btn">More Info</button>
     </div>
   `
     );
@@ -95,7 +92,6 @@ document.querySelector("#us-btn").addEventListener("click", function () {
     <img src="${element.image}">
     <p class="age">${element.age}</p>
     <p class="nationality">${element.nationality}</p>
-    <button id="info-btn">More Info</button>
     </div>
   `
     );
@@ -114,7 +110,6 @@ document.querySelector("#all-btn").addEventListener("click", function () {
     <img src="${element.image}">
     <p class="age">${element.age}</p>
     <p class="nationality">${element.nationality}</p>
-    <button id="info-btn">More Info</button>
     </div>
   `
     );
